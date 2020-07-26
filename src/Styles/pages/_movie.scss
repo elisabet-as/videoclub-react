@@ -1,0 +1,49 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+.movie-back-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.movie-card {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  background-color: #3669a0;
+  padding: 40px;
+  border-radius: 12px;
+  width: 65%;
+}
+
+.favourite {
+  background-color: gold;
+}
+
+.movie-poster {
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.movie-detail {
+  display: flex;
+}
